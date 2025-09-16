@@ -2,7 +2,7 @@
 *****************************************************************************************************
 * By writing your name in the space provided below, you are honouring the CIS academic honesty pledge 
 * “I have neither given nor received unauthorized aid on this piece of work.”
-* NAME: 
+* NAME:  Jack Lu
 *****************************************************************************************************
 */
 
@@ -21,7 +21,7 @@ public class Main {
             System.out.println("triple works");
         }
         if (half(5) == 2.5) {System.out.println("half works");}
-        if (roundPositiveValueToNearestInteger(4.1) == 4) {System.out.println("rounding works");}
+        if (round(4.8) == 5) {System.out.println("rounding works");}
     }
 
     // 1. add
@@ -67,6 +67,10 @@ public class Main {
         } else {
             return i;
         }
+    }
+
+    public static int round (double d) {
+        return 0;
     }
 
     public static int roundInt (double d) {
