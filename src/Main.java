@@ -21,7 +21,7 @@ public class Main {
             System.out.println("triple works");
         }
         if (half(5) == 2.5) {System.out.println("half works");}
-        if (round(4.8) == 5) {System.out.println("rounding works");}
+        if (round_eff(4.8) == 5) {System.out.println("rounding works");}
     }
 
     // 1. add
@@ -69,11 +69,11 @@ public class Main {
         }
     }
 
-    public static int round (double d) {
-        return 0;
+    public static int round_eff (double d) {
+        return (int) (d+0.5d);
     }
 
-    public static int roundInt (double d) {
+    public static int round_math (double d) {
         return (int) Math.round(d);
     }
     // 8. roundNegativeValueToNearestInteger
